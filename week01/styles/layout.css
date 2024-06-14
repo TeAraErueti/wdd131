@@ -45,10 +45,27 @@ body {
     grid-column: 1 / 3;
   }
   
-    
+  .left-side img{
+    width: 150px;
+    height: auto;
+    border: 3px solid black;
+    padding: 3px;
+    box-shadow: 0 0 30px gray;
+    float: top;
+    margin: 1rem auto;
+  }
+
   .right-side {
     background: yellow;
     grid-column: 3 / 4;
+  }
+
+  .right-side img {
+    width: 200px;
+    height: auto;
+    padding: 1px;
+    border: 2px solid black;
+    float: right;    
   }
 
   p{
