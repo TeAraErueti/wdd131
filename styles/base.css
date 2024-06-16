@@ -28,12 +28,13 @@ main {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--secondary-color);
+    /*background-color: var(--secondary-color);*/
     grid-row: 2;
     grid-column-gap: 20px;
     display: grid;
-    grid-template-columns: 2fr auto 1fr auto;
-    grid-template-rows: 1fr;
+    grid-template-columns: auto/ auto 1fr auto;
+    /*grid-template-rows: 1fr;*/
+    justify-content:center;
 }
 
 .card1{
@@ -107,13 +108,14 @@ hr {
 
 .card1, .card2 {
     text-align: center;
-    border: rgb(236, 203, 11);
-    border-radius: 0.5em;
+    border: 2px rgb(39, 34, 8);
+    border-style: double;
     width: calc(95% - 10px);
-    margin: 10px auto;
-    border-radius:10px;
-    padding:2rem;
+    margin: 10px;
+    border-radius:2em;
+    padding:0px 25px 25px 25px;
     max-width: 900px;
+    background-color: var(--secondary-color);
 }
 
 h2 {
