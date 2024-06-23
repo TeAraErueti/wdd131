@@ -60,7 +60,6 @@ button {
     cursor: pointer;
     display:flex;
     appearance: auto;
-    text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
@@ -101,10 +100,6 @@ nav a {
     font-size: 1.5rem;
     text-align: center;
     display: none;
-}
-
-a:-webkit-any-link {
-    cursor: pointer;
 }
 
 .open a {
@@ -160,7 +155,6 @@ main figure img {
 }
 
 img {
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 
