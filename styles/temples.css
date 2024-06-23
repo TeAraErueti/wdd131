@@ -32,14 +32,6 @@ header {
     unicode-bidi: isolate;
 }
 
-header div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
-    width: 100%;
-}
-
 h1 {
     display: block;
     font-size: 2em;
@@ -148,13 +140,10 @@ figure {
     unicode-bidi: isolate;
 }
 
-main figure img {
+img {
     max-width: 100%;
     width: 470px;
     height: auto;
-}
-
-img {
     overflow: clip;
 }
 
