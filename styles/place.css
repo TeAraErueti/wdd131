@@ -103,6 +103,11 @@ tr {
     border-color: inherit;
 }
 
+tr:hover {
+    background-color: #055e09;
+    color: rgb(255, 254, 254);
+}
+
 td {
     display: table-cell;
     width: 50%;
