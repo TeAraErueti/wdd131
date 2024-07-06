@@ -132,6 +132,8 @@ function templeCards(filteredTempleArray) {
         //Give attributes to img. Lazy loading
         templeCardImg.setAttribute("src", temple.imageUrl)
         templeCardImg.setAttribute("alt", `${temple.templeName} temple`)
+        templeCardImg.setAttribute("width", "400px")
+        templeCardImg.setAttribute("height", "250px")
         templeCardImg.setAttribute("loading", "lazy")
 
         //Assign content
