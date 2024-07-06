@@ -133,7 +133,7 @@ function templeCards(filteredTempleArray) {
         templeCardImg.setAttribute("src", temple.imageUrl)
         templeCardImg.setAttribute("alt", `${temple.templeName} temple`)
         templeCardImg.setAttribute("width", "400px")
-        templeCardImg.setAttribute("height", "250px")
+        templeCardImg.setAttribute("height", "225px")
         templeCardImg.setAttribute("loading", "lazy")
 
         //Assign content
