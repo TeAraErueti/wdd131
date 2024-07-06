@@ -110,14 +110,14 @@ body p {
 img {
     width: 100%;
     height: auto;
-    min-height:225px;
+    min-height: 225px;
     max-height: 250px;
     max-width: 400px;
     unicode-bidi: isolate;
 }
 
 .card {
-    padding: 7px;    
+    padding: 7px;
     border: 1px solid #124076;
     box-shadow: .1rem .1rem .3rem .1rem #0a0a0a73;
     unicode-bidi: isolate;

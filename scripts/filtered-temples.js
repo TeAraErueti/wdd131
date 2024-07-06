@@ -175,21 +175,21 @@ allTemples.addEventListener("click", () => {
 })
 
 newTemples.addEventListener("click", () => {
-    templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] >= "2000"))
+    templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] > "2000"))
     homeHeader.textContent = "New";
 })
 
 oldTemples.addEventListener("click", () => {
-    templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] <= "1900"))
+    templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] < "1900"))
     homeHeader.textContent = "Old";
 })
 
 largeTemples.addEventListener("click", () => {
-    templeCards(temples.filter(temple => temple.area >= 90000))
+    templeCards(temples.filter(temple => temple.area > 90000))
     homeHeader.textContent = "Large";
 })
 
 smallTemples.addEventListener("click", () => {
-    templeCards(temples.filter(temple => temple.area <= 10000))
+    templeCards(temples.filter(temple => temple.area < 10000))
     homeHeader.textContent = "Small";
 })
