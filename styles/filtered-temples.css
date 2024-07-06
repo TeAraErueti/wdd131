@@ -23,6 +23,7 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.233);
     background-color: var(--secondary-color);
     color: #eff0ef;
+    unicode-bidi: isolate;
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
     margin: 0 auto;
     padding: 12px;
     text-align: center;
+    unicode-bidi: isolate;
 }
 
 #menu {
@@ -43,6 +45,7 @@ h2 {
     top: 1rem;
     right: 1rem;
     color: #EEEEEE;
+    unicode-bidi: isolate;
 }
 
 #menu.show::before {
@@ -61,6 +64,7 @@ h2 {
     margin: 0 auto;
     list-style: none;
     max-width: 900px;
+    unicode-bidi: isolate;
 }
 
 .navMenu a {
@@ -72,6 +76,7 @@ h2 {
     text-align: left;
     font-weight: 720;
     transition: 0.4s;
+    unicode-bidi: isolate;
 }
 
 .navMenu a:hover,
@@ -82,10 +87,12 @@ nav a:active {
 
 .show li {
     display: block;
+    unicode-bidi: isolate;
 }
 
 body p {
     font-size: .9rem;
+    unicode-bidi: isolate;
 }
 
 
@@ -97,6 +104,7 @@ body p {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 12px;
     padding-bottom: 50px;
+    unicode-bidi: isolate;
 }
 
 img {
@@ -105,24 +113,27 @@ img {
     min-height:225px;
     max-height: 250px;
     max-width: 400px;
+    unicode-bidi: isolate;
 }
 
 .card {
     padding: 7px;    
     border: 1px solid #124076;
     box-shadow: .1rem .1rem .3rem .1rem #0a0a0a73;
+    unicode-bidi: isolate;
 }
 
 .card h3,
 p {
     text-align: center;
+    unicode-bidi: isolate;
 }
 
 footer {
     display: block;
-    color: var(--primary-color);
+    color: #ebeebe;
     margin: 0 auto;
-    background-color: var(--secondary-color);
+    background-color: rgb(75, 7, 132);
     padding: 10px;
     text-align: center;
     font-weight: 500;
