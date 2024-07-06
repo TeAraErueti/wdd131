@@ -169,25 +169,25 @@ const smallTemples = document.querySelector('#smallTemples');
 
 allTemples.addEventListener("click", () => {
     templeCards(temples)
-    pageHeader.textContent = "Home";
+    homeHeader.textContent = "Home";
 })
 
 newTemples.addEventListener("click", () => {
     templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] >= "2000"))
-    pageHeader.textContent = "New";
+    homeHeader.textContent = "New";
 })
 
 oldTemples.addEventListener("click", () => {
     templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] <= "1900"))
-    pageHeader.textContent = "Old";
+    homeHeader.textContent = "Old";
 })
 
 largeTemples.addEventListener("click", () => {
     templeCards(temples.filter(temple => temple.area >= 90000))
-    pageHeader.textContent = "Large";
+    homeHeader.textContent = "Large";
 })
 
 smallTemples.addEventListener("click", () => {
     templeCards(temples.filter(temple => temple.area <= 10000))
-    pageHeader.textContent = "Small";
+    homeHeader.textContent = "Small";
 })
