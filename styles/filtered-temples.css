@@ -1,0 +1,135 @@
+:root {
+    --primary-color: #EEF2BB;
+    --secondary-color: rgb(75, 7, 131);
+    --accent1-color: #B4996A;
+    --accent2-color: #ACC3BC;
+
+    --heading-font: 'Inter', sans-serif;
+    --paragraph-font: 'Inter', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--paragraph-font);
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    background-color: var(--secondary-color);
+    color: #eff0ef;
+}
+
+h2 {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+}
+
+#menu {
+    display: block;
+    font-size: 3rem;
+    font-weight: 650;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #EEEEEE;
+}
+
+#menu.show::before {
+    content: "x";
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navMenu li {
+    display: none;
+}
+
+.navMenu {
+    margin: 0 auto;
+    list-style: none;
+    max-width: 900px;
+}
+
+.navMenu a {
+    display: block;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    text-align: left;
+    font-weight: 720;
+    transition: 0.4s;
+}
+
+.navMenu a:hover,
+nav a:active {
+    color: #e8f70e;
+    transition: color 0.3s;
+}
+
+.show li {
+    display: block;
+}
+
+body p {
+    font-size: .9rem;
+}
+
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    max-width: 900px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+    padding-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    padding: 7px;
+    border: 1px solid #124076;
+    box-shadow: .1rem .1rem .3rem .1rem #00000073;
+}
+
+.card h3,
+p {
+    text-align: center;
+}
+
+footer {
+    display: block;
+    color: var(--primary-color);
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    unicode-bidi: isolate;
+}
+
+footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
