@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Te Ara Erueti</title>
+    <meta name="description" content="Te Ara Erueti's - WDD131 - Dynamic Web Fundamentals - Week 5 Form Assignment">
+    <meta name="author" content="Te Ara Erueti">
+
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Product Review</h1>
+        </header>
+
+        <form id="reviewForm" method="get" action="review.html">
+            <label for="productName">Product Name:</label>
+            <select id="productName" name="productName" required>
+                <option value="" disable selected>Choose a Product...</option>
+            </select>
+
+            <label>Overall Rating</label>
+            <div id="rating" class="rating">
+                <input type="radio" id="fivestar" name="rating" value="5" required><label for="fivestar">☆</label>
+                <input type="radio" id="fourstar" name="rating" value="4" required><label for="fourstar">☆</label>
+                <input type="radio" id="threestar" name="rating" value="3" required><label for="threestar">☆</label>
+                <input type="radio" id="twostar" name="rating" value="2" required><label for="twostar">☆</label>
+                <input type="radio" id="onestar" name="rating" value="1" required><label for="onestar">☆</label>
+            </div>
+
+            <label for="installationDate">Date of Installation:</label>
+            <input type="date" id="installationDate" name="installationDate" required>
+
+            <label>Which features did you find useful in the product? (Check all that apply)</label>
+            <div>
+                <input type="checkbox" id="durability" name="features" value="Durability"><label
+                    for="durability">Durability</label>
+                <input type="checkbox" id="easeOfUse" name="features" value="Ease of Use"><label for="easeOfUse">Ease of
+                    Use</label>
+                <input type="checkbox" id="performance" name="features" value="Performance"><label
+                    for="performance">Performance</label>
+                <input type="checkbox" id="design" name="features" value="Design"><label for="design">Design</label>
+            </div>
+
+            <label for="review">Written Review (Optional):</label>
+            <textarea id="review" name="review"></textarea>
+
+            <label for="yourName">Your Name (Optional):</label>
+            <input type="text" id="yourName" name="yourName">
+
+            <input type="submit" value="Post Review">
+        </form>
+
+        <footer>
+            <p>&copy; <span id="currentyear"></span> &clubs; Te Ara Erueti &clubs; Waikato, New Zealand</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>

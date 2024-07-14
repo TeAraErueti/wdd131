@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Te Ara Erueti</title>
+    <meta name="description" content="Confirmation of Review Submitted Form Assignment">
+    <meta name="author" content="Te Ara Erueti">
+
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/review.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Review Submitted</h1>
+        </header>
+        <div class="confirmation">
+            <p>Your review has been submitted successfully!</p>
+            <p>Total Reviews Submitted: <span id="reviewCount"></span></p>
+            <a href="form.html" class="button">Submit Another Review</a>
+        </div>
+
+        <section class="past-reviews">
+            <h3>Past Reviews</h3>
+            <div id="reviewsList"></div>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="currentyear"></span> &clubs; Te Ara Erueti &clubs; Waikato, New Zealand</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
