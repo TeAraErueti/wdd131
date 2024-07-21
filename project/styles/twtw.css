@@ -147,7 +147,7 @@ figure {
     margin: 10px;
 }
 
-.culture button:hover {
+.culture input:hover {
     color: #fbfbfc;
     background-color: #210b9c;
 }
