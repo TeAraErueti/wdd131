@@ -146,9 +146,13 @@ figure {
     margin: 10px;
 }
 
-.culture input:hover {
+.culture a {
     color: #fbfbfc;
-    background-color: #210b9c;
+}
+
+.culture a:hover {
+    color: #fbfbfc;
+    background-color: #301aad;
 }
 
 footer {
