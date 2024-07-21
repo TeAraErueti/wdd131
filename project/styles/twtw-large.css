@@ -23,4 +23,26 @@
     .navMenu a {
         text-align: center;
     }
+
+    .whare {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+
+    .column {
+        display: inline-block;
+        padding: 1rem;
+        width: 34%;
+        box-sizing: border-box;
+    }
+    
+    .culture {
+        background-color: #350c0c;
+        color: rgb(250, 247, 247);
+        border: 2px black;
+        padding: 10px;
+        margin: 10px;
+    }
 }

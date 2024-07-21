@@ -27,7 +27,7 @@ header {
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.233);
     background-color: var(--secondary-color);
-    color: #eff0ef;
+    color:white;
     unicode-bidi: isolate;
 }
 
@@ -49,7 +49,7 @@ h2 {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    color: #EEEEEE;
+    color: white;
     unicode-bidi: isolate;
 }
 
@@ -76,7 +76,7 @@ h2 {
     display: block;
     padding: 0.8rem;
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-size: clamp(1rem, 2vmin, 1.5rem);
     text-align: left;
     font-weight: 720;
@@ -120,23 +120,22 @@ body p {
     color: #EEEEEE
 }
 
-.whare {
+/*.whare {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     justify-items: center;
-}
-
+}*/
 figure {
     text-align: center;
 }
 
-.column {
+/*.column {
     display: inline-block;
     padding: 1rem;
     width: 34%;
     box-sizing: border-box;
-}
+}*/
 
 .culture {
     background-color: #350c0c;
@@ -144,6 +143,12 @@ figure {
     border: 2px black;
     padding: 10px;
     margin: 10px;
+}
+
+.culture img{
+    width:100%;
+    height:90%;
+    margin:0;
 }
 
 .culture a {
@@ -163,11 +168,11 @@ footer {
     font-weight: 500;
     unicode-bidi: isolate;
     background-color: var(--secondary-color);
-    color: #eff0ef;
+    color: white;
 }
 
 footer p {
-    color: #eff0ef;
+    color: white;
     font-style: var(--paragraph-font);
     line-height: 1em;
     display: block;
