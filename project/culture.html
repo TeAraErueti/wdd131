@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Maori Culture Page</title>
+    <meta name="description"
+        content="Te Ara Erueti's - WDD131 - Dynamic Web Fundamentals - Week 6 Final Maori Culture Page">
+    <meta name="author" content="Te Ara Erueti">
+
+    <link rel="stylesheet" href="styles/culture.css">
+    <link rel="stylesheet" href="styles/culture-large.css">
+    <script src="scripts/culture.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Māori Culture</h1>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navMenu">
+                <li id="teWhareTapaWha"><a href="./twtw-aotearoa.html">Home</a></li>
+                <li id="tahaWairua"><a href="./walls.html">Taha Wairua</a></li>
+                <li id="tahaHinegaro"><a href="./walls.html">Taha Hinengaro</a></li>
+                <li id="tahaTinana"><a href="./walls.html">Taha Tinana</a></li>
+                <li id="tahaWhanau"><a href="./walls.html">Taha Whānau</a></li>
+                <li id="whenua"><a href=./walls.html>Whenua</a></li>
+                <li id="contact"><a href=./contact.html>Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/culture-large.jpg">
+                <source media="(min-width: 500px)" srcset="images/culture-med.jpg">
+                <source media="(min-width: 300px)" srcset="images/culture-small.jpg">
+                <img src="images/culture-small.jpg" alt="image of maori culture" loading="lazy" width="1000"
+                    height="600">
+            </picture>
+        </div>
+
+        <div class="cultureBlock">
+            <section class="history">
+                <h2>History</h2>
+                <article>
+                    <p>The history of Māori culture can be divided into several distinct periods: the Archaic period (c.
+                        1300 AD), characterized by the initial settlement and adaptation to New Zealand's environment;
+                        the Classic period (c. 1500 AD), marked by the development of a more settled lifestyle and
+                        complex social structures; and the European contact period beginning in the 18th century, which
+                        brought significant changes due to colonization.
+                        The Treaty of Waitangi in 1840 was a pivotal moment that aimed to protect Māori rights but led
+                        to extensive land loss and cultural disruption.</p>
+                </article>
+            </section>
+
+            <section class="society">
+                <h2>Societal Structure</h2>
+                <article>
+                    <p>Māori society is organized into iwi (tribes), hapū (sub-tribes), and whānau (extended families).
+                        Each iwi has its own unique history, traditions, and governance structures.
+                        The concepts of mana (authority or prestige) and whakapapa (genealogy) are fundamental to social
+                        organization, influencing relationships and community dynamics.</p>
+                </article>
+            </section>
+
+            <section class="language">
+                <h2>Language</h2>
+                <article>
+                    <p>Te reo Māori is one of New Zealand's official languages and is integral to cultural identity.
+                        Efforts have been made since the late 20th century to revitalize the language through education
+                        initiatives such as Kura Kaupapa Māori schools, promoting its use in everyday life.</p>
+                </article>
+            </section>
+
+            <section class="practices">
+                <h2>Cultural Practices</h2>
+                <article>
+                    <p>Māori culture is expressed through various traditional arts including whakairo (carving), raranga
+                        (weaving), kapa haka (performing arts), and tā moko (tattooing).
+                        Each art form carries deep significance, often reflecting ancestral stories, spiritual beliefs,
+                        and social status.
+                        The haka, a traditional war dance that has gained international recognition through sports teams
+                        like the All Blacks, exemplifies this expressive cultural heritage.</p>
+                </article>
+            </section>
+
+            <section class="tikanga">
+                <h2>Tikanga Māori</h2>
+                <article>
+                    <p>Tikanga refers to the customs and values that guide behavior within Māori society.
+                        These include respect for elders (kaumātua), communal living practices during significant events
+                        at marae (meeting grounds), and adherence to protocols such as pōwhiri (welcoming ceremonies).
+                        The principles of tapu (sacredness) and utu (reciprocity) also play crucial roles in maintaining
+                        balance within relationships.</p>
+                </article>
+            </section>
+
+            <section class="land">
+                <h2>Connection to Land</h2>
+                <article>
+                    <p>The relationship between Māori people and their land is profound. As tangata whenua (“people of
+                        the land”), they hold a deep spiritual connection with their environment.
+                        Concepts like kaitiakitanga emphasize guardianship over natural resources, highlighting
+                        responsibilities toward sustainability.</p>
+                </article>
+            </section>
+
+            <section class="today">
+                <h2>Today</h2>
+                <article>
+                    <p>In recent decades, there has been a resurgence in Māori cultural pride and activism aimed at
+                        addressing historical injustices stemming from colonization.
+                        Movements advocating for te reo revitalization, land rights restitution through the Waitangi
+                        Tribunal process, and greater representation in government reflect ongoing efforts to reclaim
+                        sovereignty and promote cultural heritage.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> &clubs; Te Ara Erueti &clubs; Waikato, New Zealand</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

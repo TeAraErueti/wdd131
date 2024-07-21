@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Te Whare Tapa Wha Contact Page</title>
+    <meta name="description" content="Te Ara Erueti's - WDD131 - Dynamic Web Fundamentals - Week 6 Final Contact Page">
+    <meta name="author" content="Te Ara Erueti">
+
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/contact-large.css">
+    <script src="scripts/contact.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navMenu">
+                <li id="teWhareTapaWha"><a href="./twtw-aotearoa.html">Home</a></li>
+                <li id="tahaWairua"><a href="./walls.html">Taha Wairua</a></li>
+                <li id="tahaHinegaro"><a href="./walls.html">Taha Hinengaro</a></li>
+                <li id="tahaTinana"><a href="./walls.html">Taha Tinana</a></li>
+                <li id="tahaWhanau"><a href="./walls.html">Taha Whānau</a></li>
+                <li id="whenua"><a href=./walls.html>Whenua</a></li>
+                <li id="contact"><a href=#>Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+
+            <p>Te Whare Tapa Wha</p>
+            <p> 384 Kawhia Road<br>
+                Kawhia 3878<br>
+                New Zealand</p>
+            <p>Phone: 369-274-8758</p>
+            <p>Email: <a href="mailto;">reception@twtw-aotearoa.com</a></p><br>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d100572.05728646714!2d174.77027336483158!3d-38.0266517639608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1707475815584!5m2!1sen!2snz"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Employees</h2>
+            <div class="employees">
+
+                <figure>
+                    <img src="images/Tiankum.jpg" alt="Tiankum">
+                    <figcaption>Tiankum Tarawhiti</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Hohepa.jpg" alt="Hohepa">
+                    <figcaption>Kiri Hohepa</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Denise.jpg" alt="Denise">
+                    <figcaption>Denise Pikitia</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <div class="container">
+            <header>
+                <h2>Contact Us</h2>
+            </header>
+
+            <form id="reviewForm" method="get" action="thanks.html">
+
+                <div class="formName">
+                    <label>Name:<input type="text" name="name"></label>
+                </div>
+                <div class="formEmail">
+                    <label>Email: <input type='email' name='email'></label>
+                </div><br>
+
+                <label for="howUs">How did you find out about us?</label>
+                <select id="howUs" name="howUs">
+                    <option value="" selected disabled>Choose an option...</option>
+                </select><br>
+
+                <label>Purpose of the Message:</label>
+                <div id="purpose" class="purpose">
+                    <input type="radio" id="generalInquiry" name="options" value="General Inquiry"><label
+                        for="generalInquiry">General Inquiry</label>
+                    <input type="radio" id="requestModel" name="options" value="Request Model"><label
+                        for="requestModel">Request Model Information</label>
+                    <input type="radio" id="websiteSuggestion" name="options" value="Website Suggestion"><label
+                        for="websiteSuggestion">Website Suggestion</label>
+                </div><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br>
+
+                <div class="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> &clubs; Te Ara Erueti &clubs; Waikato, New Zealand</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

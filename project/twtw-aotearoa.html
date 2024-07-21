@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Te Whare Tapa Wha Home Page</title>
+    <meta name="description" content="Te Ara Erueti's - WDD131 - Dynamic Web Fundamentals - Week 6 Final Home Page">
+    <meta name="author" content="Te Ara Erueti">
+
+    <link rel="stylesheet" href="styles/twtw.css">
+    <link rel="stylesheet" href="styles/twtw-large.css">
+    <script src="scripts/twtw.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Te Whare Tapa Whā</h1>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navMenu">
+                <li id="teWhareTapaWha"><a href="#">Home</a></li>
+                <li id="tahaWairua"><a href="./walls.html">Taha Wairua</a></li>
+                <li id="tahaHinegaro"><a href="./walls.html">Taha Hinengaro</a></li>
+                <li id="tahaTinana"><a href="./walls.html">Taha Tinana</a></li>
+                <li id="tahaWhanau"><a href="./walls.html">Taha Whānau</a></li>
+                <li id="whenua"><a href=./walls.html>Whenua</a></li>
+                <li id="contact"><a href=./contact.html>Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.jpg">
+                <source media="(min-width: 500px)" srcset="images/hero-medium.jpg">
+                <source media="(min-width: 300px)" srcset="images/hero-small.jpg">
+                <img src="images/hero-small.jpg" alt="maori image of ferns" loading="lazy" width="500" height="250">
+            </picture>
+        </div>
+
+        <section class="twtwNav">
+            <h2>Te Whare Tapa Whā</h2>
+
+            <div class="twtw_description">
+                <p>Te Whare Tapa Whā is a holistic health model utilised by western society in Maori culture, New
+                    Zealand.
+                    The model itself was developed by Sir Mason Durie in 1984, which provides a
+                    framework for understanding the connections between health and well-being within Māori culture.
+                    The model represents health as a wharenui, also known as a meeting house.
+                    The meeting house is made up of four walls, each symbolizing a different aspect of well-being.
+                    The bottom of the wharenui is also crucial in which each wall is supported by the foundation of
+                    whenua, also known as the connection to the land.
+                    This approach emphasizes that all dimensions as a whole must be balanced in order to achieve overall
+                    health.
+                </p>
+            </div>
+
+            <div class="whare">
+                <div class="column">
+                    <figure>
+                        <a href="./walls.html">
+                            <img src="images/wairua.jpg" alt="taha wairua" loading="lazy" width="230" height="230"
+                                class="wairua">
+                        </a>
+                        <figcaption>Taha Wairua</figcaption>
+                    </figure>
+                    <p class="wairua">Taha wairua refers to spiritual health, encompassing one's connection to their
+                        heritage, beliefs, values, and traditions.
+                        This dimension emphasizes the importance of spirituality in overall wellbeing.
+                    </p>
+                </div>
+
+                <div class="column">
+                    <figure>
+                        <a href="./walls.html">
+                            <img src="images/hinengaro.jpg" alt="taha hinengaro" loading="lazy" width="230" height="230"
+                                class="hinengaro">
+                        </a>
+                        <figcaption>Taha Hinengaro</figcaption>
+                    </figure>
+                    <p class="hinengaro">This dimension focuses on mental health and emotional stability.
+                        It involves understanding one's thoughts, feelings, and consciousness and how they influence
+                        overall wellbeing.
+                    </p>
+                </div>
+
+                <div class="column">
+                    <figure>
+                        <a href="./walls.html">
+                            <img src="images/tinana.jpg" alt="taha tinana" loading="lazy" width="230" height="230"
+                                class="tinana">
+                        </a>
+                        <figcaption>Taha Tinana</figcaption>
+                    </figure>
+                    <p class="tinana">This dimension pertains to physical health and encompasses aspects such as
+                        nutrition, exercise, sleep hygiene, and general self-care practices.
+                        Maintaining taha tinana involves being active daily.
+                    </p>
+                </div>
+
+                <div class="column">
+                    <figure>
+                        <a href="./walls.html">
+                            <img src="images/whanau.jpg" alt="taha whanau" loading="lazy" width="230" height="230"
+                                class="whanau">
+                        </a>
+                        <figcaption>Taha Whānau</figcaption>
+                    </figure>
+                    <p class="whanau">Taha whānau emphasizes the significance of family connections and social
+                        relationships in maintaining good health.
+                        It recognizes that strong familial bonds contribute positively to an individual's sense of
+                        identity and belonging.
+                    </p>
+                </div>
+
+                <div class="column">
+                    <figure>
+                        <a href="./walls.html">
+                            <img src="images/whenua.jpg" alt="taha whenua" loading="lazy" width="230" height="230"
+                                class="whenua">
+                        </a>
+                        <figcaption>Whenua</figcaption>
+                    </figure>
+                    <p class="whenua">At the core of Te Whare Tapa Whā lies the concept of whenua (land), which serves
+                        as the foundation upon which all four walls stand.
+                        This connection highlights the importance of environmental factors on individual health.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="culture">
+            <h2>Māori Culture</h2>
+            <figure>
+                <img src="images/marae.jpg" alt="maori culture" loading="lazy" width="600" height="400" class="culture">
+            </figure>
+            <p>Māori culture, known as Māoritanga, encompasses the customs, beliefs, and practices of the indigenous
+                Māori people of Aotearoa (New Zealand). With roots tracing back over a thousand years to their
+                Polynesian ancestors who arrived from Hawaiki, Māori culture is rich in tradition and spirituality. It
+                plays a vital role in shaping New Zealand's national identity and continues to thrive amidst modern
+                influences.</p>
+
+            <a href=./culture.html><button type="submit">Learn More...</button></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> &clubs; Te Ara Erueti &clubs; Waikato, New Zealand</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
