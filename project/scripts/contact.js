@@ -3,7 +3,6 @@ console.log(currentYear);
 document.getElementById("currentyear").innerText = currentYear;
 document.getElementById('lastModified').innerText = document.lastModified;
 
-
 // Options array
 const options = [
     {

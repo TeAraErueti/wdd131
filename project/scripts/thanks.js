@@ -5,4 +5,3 @@ document.getElementById('lastModified').innerText = document.lastModified;
 
 // Display review count from localStorage
 document.getElementById('messageCount').textContent = localStorage.getItem('messageCount') || 0;
-
