@@ -133,9 +133,15 @@ section {
     background-color: rgba(110, 146, 151, 0.103)
 }
 
+iframe{
+    width:95%;
+    align-items: center;
+}
+
 .employees img {
-    width: 220px;
+    width: 100%;
     height: auto;
+    margin-left:22%;
 }
 
 .employees {
@@ -199,7 +205,6 @@ textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
-
 
 button {
     margin: 1rem;

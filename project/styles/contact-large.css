@@ -23,4 +23,11 @@
     .navMenu a {
         text-align: center;
     }
+
+    .employees img {
+        width: 220px;
+        height: auto;
+    }
+    
+
 }
