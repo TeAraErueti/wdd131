@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #EEF2BB;
+    --secondary-color: #146363;
+    --accent1-color: #8d0a0a;
+    --accent2-color: #a01107;
+
+    --heading-font: 'Inter', sans-serif;
+    --paragraph-font: 'Inter', sans-serif;
+
+    --nav-background-color: #e8eca7fd;
+    --nav-link-color: #165252;
+    --nav-hover-link-color: #e00d0d;
+    --nav-hover-background-color: #0c0b04;
+}
+
+* {
+    font-family: var(--paragraph-font);
+    max-width: auto;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+header {
+    justify-content: center;
+    font-style: var(--heading-font);
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    background-color: rgb(71, 4, 4);
+    color: #eff0ef;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    unicode-bidi: isolate;
+}
+
+#menu {
+    display: block;
+    font-size: 3rem;
+    font-weight: 650;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #EEEEEE;
+    unicode-bidi: isolate;
+}
+
+#menu.show::before {
+    content: "x";
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navMenu li {
+    display: none;
+}
+
+.navMenu {
+    margin: 0 auto;
+    list-style: none;
+    max-width: 900px;
+    unicode-bidi: isolate;
+}
+
+.navMenu a {
+    display: block;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    text-align: left;
+    font-weight: 720;
+    transition: 0.4s;
+    unicode-bidi: isolate;
+}
+
+.navMenu a:hover,
+nav a:active {
+    color: #67fc11;
+    transition: color 0.3s;
+}
+
+.show li {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body p {
+    font-size: 1rem;
+    font-style: var(--paragraph-font);
+    unicode-bidi: isolate;
+}
+
+.hero img {
+    display: block;
+    width: 95%;
+    max-width: auto;
+    height: auto;
+    padding: 30px;
+    margin: 0;
+}
+
+.hero {
+    justify-content: center;
+    align-items: center;
+}
+
+.cultureBlock {
+    display: block;
+    background-color: #110904;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    unicode-bidi: isolate;
+    background-color: rgb(71, 4, 4);
+    color: #eff0ef;
+}
+
+footer p {
+    color: #eff0ef;
+    font-style: var(--paragraph-font);
+    line-height: 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}

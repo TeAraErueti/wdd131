@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #EEF2BB;
+    --secondary-color: #146363;
+    --accent1-color: #8d0a0a;
+    --accent2-color: #a01107;
+
+    --heading-font: 'Inter', sans-serif;
+    --paragraph-font: 'Inter', sans-serif;
+
+    --nav-background-color: #e8eca7fd;
+    --nav-link-color: #165252;
+    --nav-hover-link-color: #e00d0d;
+    --nav-hover-background-color: #0c0b04;
+}
+
+* {
+    font-family: var(--paragraph-font);
+    max-width: auto;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+
+header {
+    justify-content: center;
+    font-style: var(--heading-font);
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    background-color: var(--secondary-color);
+    color: #eff0ef;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    unicode-bidi: isolate;
+}
+
+#menu {
+    display: block;
+    font-size: 3rem;
+    font-weight: 650;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #EEEEEE;
+    unicode-bidi: isolate;
+}
+
+#menu.show::before {
+    content: "x";
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navMenu li {
+    display: none;
+}
+
+.navMenu {
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 900px;
+    unicode-bidi: isolate;
+}
+
+.navMenu a {
+    display: block;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    text-align: left;
+    font-weight: 720;
+    transition: 0.4s;
+    unicode-bidi: isolate;
+}
+
+.navMenu a:hover,
+nav a:active {
+    color: #2ff015;
+    transition: color 0.3s;
+}
+
+.show li {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body p {
+    font-size: 1rem;
+    unicode-bidi: isolate;
+}
+
+h1 {
+    position: relative;
+    top: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    color: #f0f0f3;
+}
+
+h2 {
+    position: relative;
+    margin-bottom: 2%;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    color: #383d86;
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    background-color: rgba(110, 146, 151, 0.103)
+}
+
+.employees img {
+    width: 220px;
+    height: auto;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    position: relative;
+    top: 20px;
+    left: -35px;
+    right: 0;
+    font-family: var(--paragraph-font);
+    text-align: center;
+    font-size: 1.3rem;
+    color: #2d2594;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: #234b4b;
+    font-size: 1rem;
+}
+
+.container header {
+    font-style: var(--heading-font);
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    background-color: #060749;
+    unicode-bidi: isolate;
+}
+
+.container h2 {
+    color: white;
+}
+
+form {
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #e5e5f0f3;
+    display: grid;
+}
+
+label,
+input,
+button,
+textarea {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+label {
+    align-self: baseline;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    unicode-bidi: isolate;
+    background-color: var(--secondary-color);
+    color: #eff0ef;
+}
+
+footer p {
+    color: #eff0ef;
+    line-height: 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}

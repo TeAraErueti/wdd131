@@ -1,0 +1,25 @@
+@media (min-width: 37.5em) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navMenu {
+        display: flex;
+    }
+
+    .navMenu li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navMenu a {
+        text-align: center;
+    }
+}
