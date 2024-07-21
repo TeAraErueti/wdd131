@@ -23,4 +23,18 @@
     .navMenu a {
         text-align: center;
     }
+
+    .whare {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+
+    .column {
+        display: inline-block;
+        padding: 1rem;
+        width: 34%;
+        box-sizing: border-box;
+    }
 }

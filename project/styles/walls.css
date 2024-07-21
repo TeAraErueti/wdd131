@@ -122,23 +122,24 @@ body p {
     color: #EEEEEE
 }
 
-.whare {
+/*.whare {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     justify-items: center;
-}
+}*/
 
 figure {
     text-align: center;
 }
 
+/*
 .column {
     display: inline-block;
     padding: 1rem;
     width: 34%;
     box-sizing: border-box;
-}
+}*/
 
 
 footer {
